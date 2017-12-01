@@ -1,0 +1,34 @@
+编译前环境安装：
+	redhat情况下：
+		yum install unzip cmake gcc openssl-devel gcc-c++
+	
+
+编译安装 
+    ./install.sh 
+
+    
+运行 
+    ./start.sh start
+停止
+    ./start.sh stop
+查看是否运行
+    ./start.sh status
+重启
+    ./start.sh restart
+
+
+错误处理：
+	若出现包加载错误，查看LD_LIBRARY_PATH  路径是否有指向本程序的lib文件
+	若没有 加载路径 source ~/.bashrc 
+
+改动说明：
+2017-08-03
+    基本框架完成
+2017-08-04
+    苏遥远 侯镇联调通过
+2017-08-07
+    李振宇联调通过
+2017-08-07
+    修复配置文件加载一个bug
+
+
